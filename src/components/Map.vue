@@ -20,8 +20,8 @@
     let geoJsonQPF_Day1;
     let geoJsonQPF_Day2;
     let maskingSentinelApr16;
-    window.retrieveNextPhoto = retrieveNextPhoto;
-    window.retrieveNextPhotoKeyboards = retrieveNextPhotoKeyboards;
+   // window.retrieveNextPhoto = retrieveNextPhoto;
+   // window.retrieveNextPhotoKeyboards = retrieveNextPhotoKeyboards;
 
 
     export default {
@@ -68,7 +68,7 @@
                     esriToposLayer
                 ]
             });
-            geoJsonQPF_Day1 = L.geoJson(qpfDay1,
+/*            geoJsonQPF_Day1 = L.geoJson(qpfDay1,
                 {
                     style: function(feature) {
                         switch (feature.properties.QPF) {
@@ -126,7 +126,7 @@
                         }
                     }
 
-                });
+                });*/
 
             let lineTornado = turf.lineString([[-95.402527,31.264172],[-95.39566,31.299382],[-95.354462,31.32754],[-95.333862,31.354517],[-95.310516,31.386175],
                 [-95.292664,31.407275],[-95.266571,31.429542],[-95.248718,31.455318],[-95.225372,31.488114],[-95.204773,31.517386],[-95.19516,31.527922],
