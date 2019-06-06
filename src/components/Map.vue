@@ -6,7 +6,6 @@
     import L from "leaflet";
     import * as esri from "esri-leaflet";
     import * as wmts from 'leaflet-tilelayer-wmts';
-    // the following three imports are from sortieParsing to fold in the TxCap Processing
     import axios from 'axios';
     import * as MakiMarkers from './scripts/Leaflet.MakiMarkers';
     import './scripts/utility';
@@ -20,8 +19,6 @@
     let geoJsonQPF_Day1;
     let geoJsonQPF_Day2;
     let maskingSentinelApr16;
-   // window.retrieveNextPhoto = retrieveNextPhoto;
-   // window.retrieveNextPhotoKeyboards = retrieveNextPhotoKeyboards;
 
 
     export default {
