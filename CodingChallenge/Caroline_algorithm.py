@@ -1,3 +1,6 @@
+# Caroline Choi
+# MAGIC Flood Response
+
 def convertTemp(file_name):
     # setting up the files to read and write
     fileObj = open(file_name, "r")
